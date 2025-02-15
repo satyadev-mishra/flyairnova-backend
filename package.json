@@ -1,0 +1,27 @@
+{
+  "name": "flyairnova-backend",
+  "version": "1.0.0",
+  "description": "Backend for flyairnova",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyadev-mishra/flyairnova-backend.git"
+  },
+  "keywords": [
+    "flyairnova",
+    "backend"
+  ],
+  "author": "satyadev mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyadev-mishra/flyairnova-backend/issues"
+  },
+  "homepage": "https://github.com/satyadev-mishra/flyairnova-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
