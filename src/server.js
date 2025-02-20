@@ -1,5 +1,6 @@
-const express = require("express");
+import express from 'express';
 require('dotenv').config()
+import connectDB from './db/db';
 const app = express();
 
 const PORT = process.env.PORT;
@@ -44,13 +45,17 @@ app.get('/', (req, res) => {
     res.send('<h1>Hello this is Flyairnova Backend</h1>');
 })
 
-app.get('/myprofile', (req, res) => {
+app.get('/api/myprofile', (req, res) => {
     res.json(data);
 })
 
-
-
-
+app.post('/auth/login', (req, res) => {
+          const data=req.body ||"Could not get the data"
+        console.log(data)
+        res.json({success:true,data:[{token:"78r7ehriut387982787rtfgegytfr387ywr8732iuebjnbjhdgfieuf972"}]});
+    
+    
+})
 
 app.listen(PORT, (req, res) => {
     console.log("listining on port :" + PORT);
