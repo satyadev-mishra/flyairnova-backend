@@ -1,1 +1,1 @@
-export const DB_NAME = 'flyairnova';
+export const DB_NAME = "cactusdb";
