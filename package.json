@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/satyadev-mishra/cactus-backend#readme",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcrypt": "^6.0.0",
     "cloudinary": "^2.5.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
